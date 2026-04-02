@@ -65,8 +65,8 @@ rattler_menuinst = { workspace = true, default-features = false }
 rattler_package_streaming = { workspace = true, default-features = false, features = [
   "reqwest",
 ] }
-rattler_shell = { workspace = true, default-features = false }
 rattler_upload = { workspace = true }
+rattler_shell = { workspace = true, default-features = false }
 reqwest = { workspace = true, features = ["stream"] }
 reqwest-middleware = { workspace = true }
 tokio = { workspace = true, features = ["rt-multi-thread", "macros"] }
